@@ -1,0 +1,25 @@
+{
+  "name": "lockly",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rsbuild dev --open",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@tabler/icons-react": "^3.26.0",
+    "axios": "^1.7.9",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.1",
+    "zustand": "^5.0.2"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^1.1.8",
+    "@rsbuild/plugin-react": "^1.0.7",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.2"
+  }
+}
